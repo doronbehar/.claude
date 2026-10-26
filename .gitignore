@@ -1,2 +1,23 @@
+backups/
+cache/
+file-history/
+projects/
+sessions/
+.credentials.json
+history.jsonl
+
+# Seems to include many settings with all the default values etc.. No
+# ineteresting stuff I wrote there.
+.claude.json
+# Changes all the time ofcourse.
+.last-update-result.json
+.last-cleanup
+# marketplace plugins are vendored and are not managed by this git repo - I
+# just add skills when I need to.
+plugins/known_marketplaces.json
+plugins/marketplaces/
 settings.local.json
+# I sync my skills by myself
 skills/synced
+# Not sure why claude is using this:
+shell-snapshots/
